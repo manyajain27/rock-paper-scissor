@@ -78,7 +78,7 @@ function playRound(humanChoice,computerChoice){
         computer.textContent=`Computer: ${computerScore}`;
     }
     if(computerChoice==="Rock" && humanChoice==="Scissors"){
-        result.innerHTML="You <strong<Lose</strong>! Rock beats Scissors";
+        result.innerHTML="You <strong>Lose</strong>! Rock beats Scissors";
         computerScore++;
         you.textContent=`You: ${humanScore}`;
         computer.textContent=`Computer: ${computerScore}`;
