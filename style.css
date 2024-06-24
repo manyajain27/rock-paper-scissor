@@ -64,3 +64,33 @@ button>img:hover{
     display: flex;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 320px){
+    .title{
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    h1{
+        font-weight: normal;
+        font-size: 24px;
+    }
+    .image{
+        width: 100px;
+        height: auto;
+    }
+    .container{
+        margin-bottom: 70px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .container img{
+        width:75px;
+        height: auto;;
+    }
+    .display{
+        margin-bottom: 50px;
+    }
+}
